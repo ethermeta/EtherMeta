@@ -12,7 +12,7 @@ contract TokenERC20  {
     uint256 public totalSupply=99000000000000000000000000000;
     // This creates an array with all balances
     mapping (address => uint256) public balanceOf;
-    mapping (address => mapping (address => uint256)) public allowance;
+    mapping (address => mapping (address => uint256)) public allowance;0x86503576A5D1005B5A574342f1Ac621a4Ea55F81
 
     // This generates a public event on the blockchain that will notify clients
     event Transfer(address indexed from, address indexed to, uint256 value);
